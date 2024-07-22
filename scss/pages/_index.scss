@@ -1,0 +1,23 @@
+.about-card-box {
+    gap: 24px;
+}
+
+.about-card {
+    padding: 16px 16px;
+}
+.card-border {
+    border: 1px solid #E3E3E3;
+}
+.card-shadow {
+    box-shadow: 4px 4px 4px 0px #00000014;
+}
+
+.contact-link > img {
+    border-radius: 40px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.contact-link:hover > img {
+    box-shadow: 0px 0px 16px 3px #9094FFE5;
+}
+

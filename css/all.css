@@ -1,0 +1,103 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-p-all {
+  padding: 12px 24px;
+}
+
+.py-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.py-96 {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.py-160 {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.title-mb {
+  margin-bottom: 36px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.c-green {
+  color: #00FFA3;
+}
+
+.c-main {
+  color: #15161D;
+}
+
+body {
+  font-family: "Bruno Ace SC", sans-serif;
+}
+
+.h1, .h2, .fs-1, .fs-2 {
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.h1 {
+  font-size: 8rem;
+}
+
+.h2 {
+  font-size: 4rem;
+}
+
+.fs-1 {
+  font-size: 1.5rem !important;
+}
+
+.fs-2 {
+  font-size: 1.25rem !important;
+}
+
+.header-p {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.about-card-box {
+  gap: 24px;
+}
+
+.about-card {
+  padding: 16px 16px;
+}
+
+.card-border {
+  border: 1px solid #E3E3E3;
+}
+
+.card-shadow {
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.0784313725);
+}
+
+.contact-link > img {
+  border-radius: 40px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+}
+
+.contact-link:hover > img {
+  box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.8980392157);
+}

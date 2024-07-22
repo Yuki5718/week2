@@ -1,0 +1,48 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height : auto;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn-p-all {
+    padding: 12px 24px;
+}
+
+.py-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.py-96 {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.py-160 {
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.title-mb {
+    margin-bottom: 36px;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+.c-green {
+    color: #00FFA3;
+}
+
+.c-main {
+    color: #15161D;
+}
